@@ -23,23 +23,23 @@
   .experience-details-container {
     margin-top: 2rem;
   }
-  #profile,
-  .section-container {
+  #profile {
     display: block;
+    margin-top: 20vh !important;
+    height: 85vh !important;
   }
   .arrow {
     display: none;
   }
-  section,
-  .section-container {
+  section {
     height: fit-content;
   }
   section {
     margin: 0 5%;
   }
   .section__pic-container {
-    width: 275px;
-    height: 275px;
+    width: 300px;
+    height: 300px;
     margin: 0 auto 2rem;
   }
   .about-containers {

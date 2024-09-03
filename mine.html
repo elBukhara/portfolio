@@ -18,7 +18,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg bg-white" aria-label="Offcanvas navbar large">
+  <nav class="navbar navbar-expand-lg bg-white fixed-top" aria-label="Offcanvas navbar large">
     <div class="container">
       <a class="navbar-brand fw-bolder" href="#">Shakhzod Giyazov</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2"
@@ -54,7 +54,7 @@
 
   <section id="profile" class="container vh-100">
     <div class="row column-gap-5 gap-4">
-      <div class="col my-auto section__pic-container">
+      <div class="col my-auto section__pic-container justify-content-center">
         <img class="profile-pic" src="./assets/me-modified (1).png" alt="Shakhzod Giyazov profile picture" />
       </div>
       <div class="col text-center my-auto">
@@ -65,9 +65,9 @@
           <button class="btn btn-outline-secondary" onclick="window.open('./assets/resume-example.pdf')">
             Download CV
           </button>
-          <button class="btn btn-dark" onclick="location.href='./#contact'">
-            Contact Info
-          </button>
+          <a class="btn btn-dark" role="link" href="#contact">
+            Contact Information
+          </a>
         </div>
         <div id="socials-container">
           <a href="/mine.html">
@@ -84,7 +84,7 @@
 
   <section id="about" class="container">
     <div class="row">
-      <p class="fs-5 text-muted text-center">Get To Know More</p>
+      <p class="fs-5 text-muted text-center mb-1">Get To Know More</p>
       <h1 class="title">About Me</h1>
 
       <div class="col-xl-4 my-5 px-5">
@@ -125,8 +125,8 @@
   </section>
 
   <section id="experience" class="container">
-    <p class="fs-5 text-muted text-center">Explore My</p>
-    <h1 class="title">Experience</h1>
+    <p class="fs-5 text-muted text-center mb-1">Explore My</p>
+    <h1 class="title mb-3">Experience</h1>
     <div class="experience-details-container">
       <div class="about-containers">
         <div class="details-container" id="backend">
@@ -277,7 +277,7 @@
   </section>
 
   <section id="projects" class="container mt-4">
-    <p class="fs-5 text-muted text-center">Browse My Recent</p>
+    <p class="fs-5 text-muted text-center mb-1">Browse My Recent</p>
     <h1 class="title">Projects</h1>
 
     <div class="row align-items-center py-5" id="project-1">

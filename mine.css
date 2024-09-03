@@ -127,6 +127,11 @@ section {
   border-radius: 2rem !important;
 }
 
+.btn-dark {
+  color: white !important;
+  text-align: center !important;
+}
+
 .btn-color-1,
 .btn-color-2 {
   border: rgb(53, 53, 53) 0.1rem solid;
